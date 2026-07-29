@@ -307,7 +307,7 @@ h1 em {
 
 .hero-visual {
   position: relative;
-  min-height: 660px;
+  min-height: 750px;
   scroll-margin-top: 90px;
 }
 
@@ -415,241 +415,19 @@ h1 em {
   top: 0;
   right: 0;
   width: 355px;
-  min-height: 650px;
-  padding: 11px;
+  padding: 8px;
   border: 4px solid #1d2932;
   border-radius: 48px;
   background: #0a1016;
   box-shadow: 0 36px 80px rgba(6, 13, 20, 0.35);
-}
-
-.phone-top {
-  position: absolute;
-  z-index: 3;
-  top: 17px;
-  left: 50%;
-  width: 104px;
-  height: 27px;
-  border-radius: 999px;
-  background: #090d10;
-  transform: translateX(-50%);
-}
-
-.phone-screen {
-  min-height: 622px;
-  padding: 34px 17px 24px;
-  border-radius: 36px;
-  background: #f2f3f4;
   overflow: hidden;
 }
 
-.app-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 2px 2px 16px;
-  color: var(--navy);
-  font-size: 0.76rem;
-  font-weight: 850;
-}
-
-.app-mark {
-  display: inline-grid;
-  width: 25px;
-  height: 25px;
-  place-items: center;
-  border-radius: 7px;
-  background: var(--blue);
-  color: var(--white);
-  font-size: 0.48rem;
-  letter-spacing: -0.07em;
-}
-
-.sample-label {
-  margin-left: auto;
-  padding: 4px 8px;
-  border-radius: 999px;
-  background: #e3e7ea;
-  color: #66717a;
-  font-size: 0.55rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.analysis-intro {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 12px 3px;
-}
-
-.analysis-intro p {
-  max-width: 175px;
-  margin: 0;
-  color: #45525c;
-  font-size: 0.78rem;
-  font-weight: 700;
-  line-height: 1.3;
-}
-
-.analysis-intro strong {
-  color: var(--navy);
-  font-size: 0.93rem;
-}
-
-.verdict-card,
-.metric-card,
-.range-card,
-.question-card {
-  border: 1px solid #dfe3e5;
-  border-radius: 12px;
-  background: var(--white);
-  box-shadow: 0 9px 22px rgba(11, 24, 37, 0.055);
-}
-
-.verdict-card {
-  padding: 18px;
-}
-
-.mini-label {
-  color: #72808a;
-  font-size: 0.54rem;
-  font-weight: 900;
-  letter-spacing: 0.12em;
-}
-
-.verdict-title {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  margin-top: 9px;
-  color: var(--navy);
-}
-
-.verdict-title strong {
-  font-size: 0.91rem;
-}
-
-.verdict-icon {
-  display: inline-grid;
-  width: 25px;
-  height: 25px;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--orange-soft);
-  color: var(--orange);
-  font-size: 0.8rem;
-  font-weight: 900;
-}
-
-.verdict-card p {
-  margin: 10px 0 0;
-  color: #66737c;
-  font-size: 0.68rem;
-  line-height: 1.45;
-}
-
-.metric-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.metric-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 13px;
-  color: #69757d;
-  font-size: 0.61rem;
-  font-weight: 700;
-}
-
-.metric-card strong {
-  padding: 4px 7px;
-  border-radius: 999px;
-  font-size: 0.59rem;
-}
-
-.metric-card .high {
-  background: #f6e5e2;
-  color: var(--red);
-}
-
-.metric-card .soon {
-  background: var(--orange-soft);
-  color: var(--orange);
-}
-
-.range-card {
-  margin-top: 10px;
-  padding: 16px;
-}
-
-.range-card > div:first-child {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  color: #68747c;
-  font-size: 0.61rem;
-  font-weight: 700;
-}
-
-.range-card strong {
-  color: var(--navy);
-  font-size: 0.76rem;
-}
-
-.range-track {
-  position: relative;
-  height: 7px;
-  margin: 14px 0 12px;
-  border-radius: 999px;
-  background: #e5e8e8;
-}
-
-.range-track span {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 63%;
-  border-radius: inherit;
-  background: var(--green);
-}
-
-.range-track i {
-  position: absolute;
-  top: -4px;
-  left: 82%;
-  width: 15px;
-  height: 15px;
-  border: 3px solid var(--white);
-  border-radius: 50%;
-  background: var(--red);
-  box-shadow: 0 2px 8px rgba(11, 24, 37, 0.2);
-}
-
-.range-card small {
+.real-app-screenshot {
   display: block;
-  color: #78848b;
-  font-size: 0.55rem;
-  line-height: 1.4;
-}
-
-.question-card {
-  margin-top: 10px;
-  padding: 15px 16px;
-}
-
-.question-card p {
-  margin: 6px 0 0;
-  color: var(--navy);
-  font-size: 0.67rem;
-  font-weight: 750;
-  line-height: 1.4;
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
 }
 
 .pressure-section,
@@ -1323,7 +1101,7 @@ h1 em {
   }
 
   .hero-visual {
-    min-height: 580px;
+    min-height: 670px;
   }
 
   .hero-visual::before {
@@ -1336,12 +1114,10 @@ h1 em {
   .phone-shell {
     right: -16px;
     width: 310px;
-    min-height: 570px;
     border-radius: 42px;
   }
 
-  .phone-screen {
-    min-height: 542px;
+  .real-app-screenshot {
     border-radius: 31px;
   }
 
@@ -1355,23 +1131,6 @@ h1 em {
 
   .slip-total {
     font-size: 1.8rem;
-  }
-
-  .phone-screen {
-    padding: 31px 13px 18px;
-  }
-
-  .analysis-intro p {
-    max-width: 142px;
-  }
-
-  .verdict-card {
-    padding: 14px;
-  }
-
-  .range-card,
-  .question-card {
-    padding: 13px;
   }
 
   .pressure-section,
